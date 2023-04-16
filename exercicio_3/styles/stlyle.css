@@ -1,0 +1,50 @@
+main{
+    width: fit-content;
+    background-color: #d5d2d7;
+
+    border-style: solid;
+    border: 5px double black;
+    border-radius: 1%;
+}
+
+#calculatorDisplayNummer{
+    padding: 5px;
+    background-color: #424d53;
+    
+    color: white;
+    text-align: right;
+    font-size: x-large;
+}
+
+#calculatorButtons{
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+
+    background-color: #b2b0c0;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 1% 5%;
+
+}
+
+#equalButton{
+    grid-row: 2/6;
+    grid-column: 4;
+    border-radius: 50% / 15%;
+    background-color: #fe9305;
+}
+
+#mainOperationButton{
+    background-color: #c7e1f6;
+}
+
+button{
+    border-radius: 50% / 50%;
+    background-color: #f0f1f1;
+}
+
+footer{
+    margin: 5px;
+}
