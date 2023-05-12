@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Apresentação</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li>
+                <a href="https://unifei.edu.br/">UNIFEI</a>
+            </li>
+            
+            <li>
+                <a href="https://proex.unifei.edu.br/">PROEX</a>
+            </li>
+            
+            <li>
+                <a href="https://unifei.edu.br/evento/integra-unifei-2023-campus-itajuba/">INTEGRA UNIFEI</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        
+            <H1>Formulário de Apresentação de Projetos de Extensão</H1>
+            <p>
+                Nesse formulário sua equipe deverá preencher os dados do seu projeto de extensão para que a PROEX possa distribuir os stands de forma mais adequada.
+            </p>
+            <form action="#">
+                <section class="IdentificacaoProjeto"></section>
+                    <fieldset>
+                        <legend>Identificação do Projeto</legend>
+
+                        <label for="nome-projeto">Nome do projeto </label>
+                        <input type="text" name="nome-projeto" id="nome-projeto">
+
+                        <label for="quant-integrantes">Quantidade de integrantes </label>
+                        <input type="number" name="quant-integrantes" id="quant-integrantes">
+
+                        <label for="nome-instituto">Instituto de Localização </label>
+                        <input type="text" name="nome-instituto" id="nome-instituto">
+                    </fieldset>
+                </section>
+
+                <section class="AreaAtuacao"></section>
+                    <fieldset>
+                        <legend>Área de atuação</legend>
+
+                        <input type="radio" name="area" id="aplicacaoWeb" checked>
+                        <label for="aplicacaoWeb">Aplicação Web/Mobile</label>
+
+                        <input type="radio" name="area" id="gamedev">
+                        <label for="gamedev">Desenvolvimento de jogos</label>
+
+                        <input type="radio" name="area" id="drones">
+                        <label for="drones">Drones</label>
+                        
+                        <input type="radio" name="area" id="compRobos">
+                        <label for="compRobos">Competição de Robôs</label>
+                        
+                        <input type="radio" name="area" id="contabilidade">
+                        <label for="contabilidade">Contabilidade</label>
+                        
+                        <input type="radio" name="area" id="meteorologia">
+                        <label for="meteorologia">Meteorologia</label>
+
+                    </fieldset>
+                </section>
+
+                <section class="AreaAtuacao"></section>
+                    <fieldset>
+                        <legend>Fomento</legend>
+
+                        <label for="tipo">Tipo</label>
+                        <select name="tipo" id="tipo">
+                            <option value="empresa-junior">Empresa Júnior</option>
+                            <option value="projeto-extencao">Projeto Extensão</option>
+                        </select>
+                    </fieldset>
+                </section>
+
+                <button>Enviar</button>
+            </form>    
+    </main>
+
+    <footer>
+        <p>feito com &hearts; por <a href="https://github.com/WinterDP">WinterDP</a></p>
+        <a href="../../index.html">retorno</a>
+    </footer>
+</body>
+</html>
